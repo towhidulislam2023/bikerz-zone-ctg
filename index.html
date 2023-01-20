@@ -1,20 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- stylesheet  -->
-    <!-- bootstrap  -->
-    <link rel="stylesheet" href="./styles/bootstrap.min.css">
-    <!-- custom css link  -->
+    <title>biker-ctg</title>
+    <link rel="stylesheet" href="./styles/bootstrap.css">
     <link rel="stylesheet" href="./styles/style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-   <header class="container">
-    
-   </header>
+    <!-- <div class="container bg-primary-subtle " style="height: 100vh;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <h1 class="navbar-brand display-1 text-light">Go Ride</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-danger ms-5">login</button>
+                </div>
+            </div>
+        </nav>
+        <div class="mt-5 pt-5">
+            <div class=" row  row-cols-1 row-cols-md-2 d-flex align-items-center p-5 pb-0">
+                <div class="col">
+                    <p class="text-light">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class=" display-3 text-light">Honda CBR 300R</h1>
+                    <p class=" mb-3 text-white"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button class="btn btn-danger">Purchase</button>
+                </div>
+                <div class="col">
+                    <img src="./images/header-bike.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <header>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-fluid bg-primary-subtle " style="height: 100vh;">
+                        <div class="container">
+                            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                                <div class="container-fluid">
+                                    <h1 class="navbar-brand display-1 text-light">Go Ride</h1>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light active" aria-current="page"
+                                                    href="#">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light" href="#">Shop</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light">News</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light">Contact</a>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-danger ms-5">login</button>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="mt-5 pt-5">
+                                <div class=" row  row-cols-1 row-cols-md-2 d-flex align-items-center p-5 pb-0">
+                                    <div class="col">
+                                        <p class="text-light">Computer-controlled digital transistorized with electronic
+                                            advance</p>
+                                        <h1 class=" display-3 text-light">Honda CBR 300R</h1>
+                                        <p class=" mb-3 text-white"> Amet minim mollit non deserunt ullamco est sit
+                                            aliqua
+                                            dolor do amet sint. Velit officia consequat
+                                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <button class="btn btn-danger">Purchase</button>
+                                    </div>
+                                    <div class="col">
+                                        <img class=" img-fluid" src="./images/header-bike.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid bg-primary-subtle " style="height: 100vh;">
+                        <div class="container">
+                            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                                <div class="container-fluid">
+                                    <h1 class="navbar-brand display-1 text-light">Go Ride</h1>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light active" aria-current="page"
+                                                    href="#">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light" href="#">Shop</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light">News</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light">Contact</a>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-danger ms-5">login</button>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="mt-5 pt-5">
+                                <div class=" row  row-cols-1 row-cols-md-2 d-flex align-items-center p-5 pb-0">
+                                    <div class="col">
+                                        <p class="text-light">Computer-controlled digital transistorized with electronic
+                                            advance</p>
+                                        <h1 class=" display-3 text-light">Honda CBR 300R</h1>
+                                        <p class=" mb-3 text-white"> Amet minim mollit non deserunt ullamco est sit
+                                            aliqua
+                                            dolor do amet sint. Velit officia consequat
+                                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <button class="btn btn-danger">Purchase</button>
+                                    </div>
+                                    <div class="col">
+                                        <img class=" img-fluid" src="./images/bike-7.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid bg-primary-subtle " style="height: 100vh;">
+                        <div class="container">
+                            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                                <div class="container-fluid">
+                                    <h1 class="navbar-brand display-1 text-light">Go Ride</h1>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light active" aria-current="page"
+                                                    href="#">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light" href="#">Shop</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light">News</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-light">Contact</a>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-danger ms-5">login</button>
+                                    </div>
+                                </div>
+                            </nav>
+                            <div class="mt-5 pt-5">
+                                <div class=" row  row-cols-1 row-cols-md-2 d-flex align-items-center p-5 pb-0">
+                                    <div class="col">
+                                        <p class="text-light">Computer-controlled digital transistorized with electronic
+                                            advance</p>
+                                        <h1 class=" display-3 text-light">Honda CBR 300R</h1>
+                                        <p class=" mb-3 text-white"> Amet minim mollit non deserunt ullamco est sit
+                                            aliqua
+                                            dolor do amet sint. Velit officia consequat
+                                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                        <button class="btn btn-danger">Purchase</button>
+                                    </div>
+                                    <div class="col">
+                                        <img class=" img-fluid" src="./images/bike-6.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </header>
+
+    <section class="container py-5 my-5">
+        <div class="text-center d-flex flex-column align-items-center">
+            <h1>
+                Fetured Bikes In This Year
+            </h1>
+            <p class="mt-2">Best bike collection</p>
+            <hr class="w-25 mt-0 border-warning border-2">
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-1 g-lg-5 mt-5 pt-5">
+            <div class="col"><img class="w-100 img-fluid" src="./images/feature-bike.jpg" alt=""></div>
+            <div class="col"><img class="w-75 img-fluid" src="./images/feature-bike.jpg" alt=""></div>
+            <div class="col"><img class="w-100 img-fluid" src="./images/feature-bike.jpg" alt=""></div>
+        </div>
+
+    </section>
+    <!-- News  -->
+    <section class="container my-5 py-5">
+        <div class="">
+            <h1 class="text-center">Latest News</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 my-5 py-3 gy-3 mx-2">
+            <div class="col mx-auto">
+                <div class="card rounded-4 container-fluid p-2" style="width: 18rem;">
+                    <img src="./images/bike-1.png" class="card-img-top w-100" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-warning">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-4 container-fluid p-2" style="width: 18rem;">
+                    <img src="./images/bike-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Motorcycles & Scooters</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-warning">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-4 container-fluid p-2" style="width: 18rem;">
+                    <img src="./images/bike-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">2021 Honda CBR500R</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-warning">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- happy customer -->
+    <section class="container mb-5 ">
+        <div>
+            <h1 class="text-center fw-bold mb-5 px-5  ">Happy <span class=" text-warning"> Clients says</span></h1>
+        </div>
+        <div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/user-1.png" class="card-img-top w-50 mx-auto my-1" alt="...">
+                        <div class="card-body">
+                            
+                            <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, explicabo.</p>
+                                <p class=" text-center">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                                </p>
+                                <h5 class="card-title text-center fw-bold">Regina Miles</h5>
+                                <p class="text-center">Bankar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/user-2.png" class="card-img-top w-50 mx-auto my-1" alt="...">
+                        <div class="card-body">
+                   
+                            <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, explicabo.</p>
+                                <p class=" text-center">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                               
+                                </p>
+                                <h5 class="card-title text-center fw-bold">Regina Miles</h5>
+                                <p class="text-center">Bankar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/user-3.png" class="card-img-top w-50 mx-auto my-1" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, explicabo.</p>
+                                <p class=" text-center">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                                </p>
+                                <h5 class="card-title text-center fw-bold">Regina Miles</h5>
+                                <p class="text-center">Bankar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row align-items-center gy-5 my-md-5">
+            <div class=" col-12 col-md-6">
+                <img src="./images/faq.png" alt="" class="img-fluid">
+            </div>
+            <div  class="col-12 col-md-6 pb-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact us -->
 
 
 
@@ -26,9 +414,9 @@
 
 
 
+    <!-- bostrap  -->
 
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
 
-
-    <!-- boostrap js  -->
-    <script src="./js/bootstrap.min.js"></script>
 </html>
